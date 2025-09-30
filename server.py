@@ -11,7 +11,7 @@ from flask import request
 # 【修正1】Flaskアプリケーションをグローバルスコープで作成
 # waitressやgunicornなどのWSGIサーバーは、グローバル変数 'application' 
 # または 'app' を探します。
-# =========================================================================
+# ========================================================ngrok http 8000=================
 app = Flask("Battlesnake")
 # waitressが探す変数名として 'application' も設定（互換性のため）
 application = app 
